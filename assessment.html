@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Assessment</title>
+  </head>
+  <body>
+
+    <h1>TEXT</h1>
+
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    </p>
+
+    <blockquote>
+      <strong>Integer</strong><i> ipsum dolor sit amet, consectetur adipisicing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+      ut aliquip ex ea</i>
+    </blockquote>
+
+    <p><strong>Vestibulum</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    </p>
+
+    <h1>TABLE</h1>
+
+    <table>
+      <caption>Scores by quarter</caption>
+      <tr>
+          <th>Team Name</th>
+          <th>First </th>
+          <th>Half </th>
+          <th>Second </th>
+          <th>Half </th>
+          <th>Final</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+      </tr>
+      <tr>
+          <td>Denver</td>
+          <td>7</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+          <td>17</td>
+      </tr>
+      <tr>
+          <td>Chicago</td>
+          <td>0</td>
+          <td>6</td>
+          <td>3</td>
+          <td>6</td>
+          <td>15</td>
+      </tr>
+      <tr>
+          <th>Toal</th>
+          <th>7</th>
+          <th>9</th>
+          <th>3</th>
+          <th>13</th>
+          <th>32</th>
+      </tr>
+    </table>
+
+    <h1>LIST</h1>
+
+    <ul>
+      <li><img src="IMG/broncos.svg" alt="Denver Broncos Logo" width="100px" height="100px"></li>
+      <a href="https://www.denverbroncos.com/" target="_blank">Denver Broncos</a>
+      <ul>
+        <li>Coach: Gary Kubiak</li>
+        <li>QB</li>
+        <ol>
+          <li>Brock Osweiler</li>
+          <li>Trevor Siemian</li>
+          <li>Peyton Manning (injured)</li>
+        </ol>
+      </ul>
+    </ul>
+
+    <ul>
+      <li><img src="IMG/bears.svg" alt="Chicago Bears Logo" width="100px" height="100px"></li>
+      <a href="https://www.chicagobears.com/" target="_blank">Chicago Bears</a>
+      <ul>
+        <li>Coach: Gary Kubiak</li>
+        <li>QB</li>
+        <ol>
+          <li>Jay Cutler</li>
+          <li>David Foles</li>
+        </ol>
+      </ul>
+    </ul>
+
+    <h1>FORM</h1>
+
+    <form class="" action="assessment.html" method="post">
+      <!--First and last name -->
+      <label for="firstName">First: </label>
+      <input type="text" name="firstName" value="" id="firstName">
+      <label for="lastNme">Last: </label>
+      <input type="text" name="lastNme" value="" id="lastNme">
+
+      <!--Fav Sport -->
+      <br>
+      <label for="favSport">Favorite Sport:</label>
+      <br>
+      <select class="" name="sports" id="favSport">
+        <option value="Soccer">Soccer</option>
+        <option value="FootBall">FootBall</option>
+        <option value="BasketBall">BasketBall</option>
+        <option value="Lacrose">Lacrose</option>
+        <option value="Hockey">Hockey</option>
+      </select>
+
+      <!--CheckBox -->
+      <label for="item1">I Have: </label>
+      <input type="checkbox" name="Attend" value="Attend" id="item1">
+      <label for="item1">Attended</label>
+      <input type="checkbox" name="played" value="played" id="item2">
+      <label for="item2">Played</label>
+      <input type="checkbox" name="coached" value="coached" id="item3">
+      <label for="item3">Coached</label>
+      <input type="checkbox" name="bet" value="bet" id="item4">
+      <label for="item4">Bet on</label>
+
+      <!--Prefered sport type -->
+      <br>
+      <label for="radio1">For this sport I prefer the: </label>
+      <input type="radio" name="amateur" value="amateur" id="radio1">
+      <label for="radio1">Amateur </label>
+      <input type="radio" name="college" value="college" id="radio2">
+      <label for="radio2">College </label>
+      <input type="radio" name="pro" value="pro" id="radio3">
+      <label for="radio3">Professional </label>
+
+      <!--Subit Button -->
+      <br>
+      <input type="submit" name="" value="Submit Query">
+    </form>
+
+
+  </body>
+</html>
