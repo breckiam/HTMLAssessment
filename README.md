@@ -15,4 +15,4 @@ This is not my first time using HTML, I am pretty familiar with it. But I have n
 
 ### Example
 
-<a href="IMG/assessment_example.png" alt="Example Assessment">
+<a href="IMG/assessment_example.png" alt="Example Assessment"></a>
