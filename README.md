@@ -15,4 +15,6 @@ This is not my first time using HTML, I am pretty familiar with it. But I have n
 
 ### Example
 
-<a href="IMG/assessment_example.png" alt="Example Assessment"></a>
+<img src="IMG/example.png" 
+	alt="Example Assessment"
+	style="float:left; margin-right: 10px; width:100%"/>
